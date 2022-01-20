@@ -1,0 +1,218 @@
+@font-face {
+  font-family: bienvenidos;
+  src: url(ChristmasCheer.ttf);
+}
+/* @font-face {
+  font-family: name;
+  src: url(muestra.otf);
+} */
+@font-face {
+  font-family: fs;
+  src: url(Fellicia.ttf);
+}
+/* @font-face {
+  font-family:ver;
+  src: url(muestra.otf);
+} */
+.name{
+  font-family: name;
+  font-size: 2.5rem; margin: 0; text-decoration: underline;
+}
+.bienvenido{
+  font-family: bienvenidos; 
+  font-size: 3rem; 
+  padding-top: 5.5rem; text-align: center;
+}
+body {
+  background-color: black;
+  /* display: grid; */
+}
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  display: grid;
+  background: lightyellow;
+  border-radius: 5px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, auto);
+}
+.separa {
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  font-family: bienvenidos;
+}
+.saludo{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+h2 {
+  text-align: center;
+ 
+}
+.nav {
+  position: fixed;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: minmax(50px, auto);
+  grid-auto-rows: 50px;
+  gap: 1em;
+}
+.sect1 {
+  grid-template-columns: repeat(2, 2fr);
+  grid-template-rows: minmax(50px, auto);
+  grid-auto-rows: 50px;
+  gap: 1em;
+  display: grid;
+
+  padding: 20px;
+  letter-spacing: 3px;
+}
+.tec2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-tec {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* gap: 1em; */
+  grid-template-rows: minmax(50px, auto);
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+}
+.grid-mej {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1em;
+  grid-template-rows: minmax(50px, auto);
+  justify-items: center;
+}
+.grid-ap {
+  justify-items: center;
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  /* gap: 1em;
+    grid-template-rows: minmax(50px, auto); */
+  justify-items: center;
+}
+#home {
+  background: lightyellow;
+  /* margin-top: 50px; */
+}
+.foto {
+  justify-self: center;
+  /* background: grey; */
+}
+.sect2 {
+  background: brown;
+  background: lightyellow;
+}
+.contenedor .marco {
+  grid-column: 1;
+  border-radius: 20px;
+  box-shadow: 0px 0px 1rem black;
+  padding: 1rem;
+  margin: 1rem;
+}
+.contenedor .marco-tec {
+  border-radius: 20px;
+  box-shadow: 0px 0px 0.8rem red;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.contenedor .marco-proy {
+    /* background: #B3FA89; */
+    grid-template-columns: none;
+    grid-template-rows: none;
+    gap: none;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0.8rem black;
+    padding-top: 2px;
+    margin: 1rem;
+  }
+.marco-foot{
+  grid-column: none;
+  border-radius: 20px;
+  box-shadow: 0px 0px 1rem red;
+  padding: 1rem;
+  margin: 1rem;
+}
+.proyecto {
+  /* background: #B3FA89; */
+  padding-bottom: 20px;
+}
+
+.footer {
+  /* background: limegreen; */
+  grid-column: 1/-1;
+}
+.grid-foot{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  align-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 30px;
+}
+
+.contenido {
+  grid-column: 1/-1;
+}
+img {
+  /* border: 1.5px solid black; */
+  /* border-radius: 15px; */
+  width: 120px;
+}
+.img {
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+}
+.imgC{
+  width: 50px;
+  height: 50px;
+}
+.fotoCV {
+  width: 310px;
+  height: 390px;
+  border-radius: 300px;
+}
+button {
+  padding: 10px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: cadetblue;
+}
+
+li{
+  text-decoration: none;
+}
+
+/* @media screen and (max-width: 768px){
+    body{background-color: red;}
+
+    .contenedor .nav{
+        display: contents;}
+    .contenedor{    
+        grid-template-columns: repeat(4,1fr);
+    }
+    
+    .sect1{
+        grid-template-columns: none;
+        padding: 0;
+    }
+    #home{
+        margin-top: 0;
+    }
+} */
