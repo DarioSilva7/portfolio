@@ -10,6 +10,11 @@
   font-family: fs;
   src: url(Fellicia.ttf);
 }
+
+h2{
+  margin:0
+}
+
 /* @font-face {
   font-family:ver;
   src: url(muestra.otf);
@@ -201,9 +206,11 @@ li {
   text-decoration: none;
 }
 
-/* @media screen and (max-width: 768px){
+ @media screen and (max-width: 768px){
     body{background-color: red;}
-
+ 
+  }
+/*
     .contenedor .nav{
         display: contents;}
     .contenedor{    
